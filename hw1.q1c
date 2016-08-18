@@ -2,7 +2,10 @@
 <querylist>
 	<query name="Новый запрос">
 		<text>ВЫБРАТЬ
-	"Hellow World" КАК Сообщение
+	&amp;Сообщение КАК Сообщение
 </text>
+		<parameters>
+			<parameter name="Сообщение" type="Строка" value="Hellow World!"/>
+		</parameters>
 	</query>
 </querylist>
